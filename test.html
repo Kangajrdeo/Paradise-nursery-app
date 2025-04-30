@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        #content {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="showPage('index')">Home</a>
+        <a href="#" onclick="showPage('products')">Products</a>
+        <a href="#" onclick="showPage('cart')">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+
+    <div id="content">
+        
+    </div>
+
+    <div id="about-us">
+        <section>
+            <h2><u>Company Overview</u></h2>
+            <p>
+                Paradise Nursery is an ultimate destination for all things green! We specialize in a diverse selection of high-quality houseplants that bring life and beauty to any indoor space. Our mission is to assist plant lovers, from beginners to seasoned gardeners, in finding the perfect plants to enhance their homes and workplaces.
+            </p>
+        </section>
+
+        <section>
+            <h2><u>About Us</u></h2>
+            <p>
+                At Paradise Nursery, we believe in the transformative power of plants. Our carefully curated collection includes a variety of houseplants, each selected for its unique beauty and ease of care. Whether you're seeking vibrant foliage, fragrant blooms, or air-purifying plants, we have something for everyone.
+            </p>
+        </section>
+
+        <section>
+            <h2><u>Our Commitment</u></h2>
+            <p>
+                We are dedicated to sustainability and responsible sourcing. Our plants are grown with care, utilizing eco-friendly practices that respect the environment. We collaborate closely with local growers to ensure that our plants are healthy, vibrant, and ready to thrive in your home.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kanga jr deo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
